@@ -11,4 +11,4 @@
 - [European Central Bank Data Portal](https://data.ecb.europa.eu/).
 
 ## Roadblocks
-- Limits in free-tier plans of different news APIs ([NewsAPI](https://newsapi.org/), [mediastack](https://mediastack.com/), [FMP](https://site.financialmodelingprep.com/)), difficulting the extraction of sentiment-related data.
+- Limits in free-tier plans of different news APIs ([NewsAPI](https://newsapi.org/), [mediastack](https://mediastack.com/), [FMP](https://site.financialmodelingprep.com/)), impeding the extraction of sentiment-related data.
