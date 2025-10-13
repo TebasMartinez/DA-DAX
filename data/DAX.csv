@@ -1,41 +1,41 @@
-,company,ticker,industry,ticker_yahoo
-0,Adidas,ADS,Sportartikel,ADS.DE
-1,Airbus,AIR,"Luftfahrt, Raumfahrt, Rüstung",AIR.PA
-2,Allianz,ALV,Versicherungen,ALV.DE
-3,BASF,BAS,Chemie,BAS.DE
-4,Bayer,BAYN,"Chemie, Pharma",BAYN.DE
-5,Beiersdorf,BEI,Konsumgüter (Produktion),BEI.DE
-6,BMW,BMW,Automobil (Produktion),BMW.DE
-7,Brenntag,BNR,Chemie (Handel),BNR.DE
-8,Commerzbank,CBK,Banken,CBK.DE
-9,Continental,CON,Automobil (Zulieferer),CON.DE
-10,Daimler Truck,DTG,Nutzfahrzeuge (Produktion),DTG.DE
-11,Deutsche Bank,DBK,Banken,DBK.DE
-12,Deutsche Börse,DB1,Börsen,DB1.DE
-13,Deutsche Post,DHL,Logistik,DHL.DE
-14,Deutsche Telekom,DTE,Telekommunikation,DTE.DE
-15,E.ON,EOAN,Energie (Versorgung),EOAN.DE
-16,Fresenius,FRE,"Medizintechnik, Kliniken",FRE.DE
-17,Fresenius Medical Care,FME,Medizintechnik,FME.DE
-18,GEA Group,G1A,Maschinenbau,G1A.DE
-19,Hannover Rück,HNR1,Versicherungen,HNR1.DE
-20,Heidelberg Materials,HEI,Baustoffe,HEI.DE
-21,Henkel,HEN3,"Konsumgüter, Chemie",HEN3.DE
-22,Infineon,IFX,Halbleiter,IFX.DE
-23,Mercedes-Benz Group,MBG,Automobil (Produktion),MBG.DE
-24,Merck,MRK,"Chemie, Pharma",MRK.DE
-25,MTU Aero Engines,MTX,Luftfahrt,MTX.DE
-26,Münchener Rück,MUV2,Versicherungen,MUV2.DE
-27,Porsche Automobil Holding,PAH3,Holding,PAH3.DE
-28,Qiagen,QIA,Biotechnologie,QIA.DE
-29,Rheinmetall,RHM,"Wehrtechnik, Automobil (Zulieferer)",RHM.DE
-30,RWE,RWE,Energie (Versorgung),RWE.DE
-31,SAP,SAP,Software,SAP.DE
-32,Scout24,G24,Online-Marktplätze,G24.DE
-33,Siemens,SIE,Elektrotechnik,SIE.DE
-34,Siemens Energy,ENR,"Elektrotechnik, Energietechnik",ENR.DE
-35,Siemens Healthineers,SHL,Medizintechnik,SHL.DE
-36,Symrise,SY1,"Lebensmittel, Chemie, Kosmetik, Konsumgüter, Duftstoffe, Aromen",SY1.DE
-37,Volkswagen,VOW3,Automobil (Produktion),VOW3.DE
-38,Vonovia,VNA,Immobilien,VNA.DE
-39,Zalando,ZAL,Versandhandel (Mode),ZAL.DE
+company,ticker,industry,ticker_yahoo
+Adidas,ADS,Sportartikel,ADS.DE
+Airbus,AIR,"Luftfahrt, Raumfahrt, Rüstung",AIR.PA
+Allianz,ALV,Versicherungen,ALV.DE
+BASF,BAS,Chemie,BAS.DE
+Bayer,BAYN,"Chemie, Pharma",BAYN.DE
+Beiersdorf,BEI,Konsumgüter (Produktion),BEI.DE
+BMW,BMW,Automobil (Produktion),BMW.DE
+Brenntag,BNR,Chemie (Handel),BNR.DE
+Commerzbank,CBK,Banken,CBK.DE
+Continental,CON,Automobil (Zulieferer),CON.DE
+Daimler Truck,DTG,Nutzfahrzeuge (Produktion),DTG.DE
+Deutsche Bank,DBK,Banken,DBK.DE
+Deutsche Börse,DB1,Börsen,DB1.DE
+Deutsche Post,DHL,Logistik,DHL.DE
+Deutsche Telekom,DTE,Telekommunikation,DTE.DE
+E.ON,EOAN,Energie (Versorgung),EOAN.DE
+Fresenius,FRE,"Medizintechnik, Kliniken",FRE.DE
+Fresenius Medical Care,FME,Medizintechnik,FME.DE
+GEA Group,G1A,Maschinenbau,G1A.DE
+Hannover Rück,HNR1,Versicherungen,HNR1.DE
+Heidelberg Materials,HEI,Baustoffe,HEI.DE
+Henkel,HEN3,"Konsumgüter, Chemie",HEN3.DE
+Infineon,IFX,Halbleiter,IFX.DE
+Mercedes-Benz Group,MBG,Automobil (Produktion),MBG.DE
+Merck,MRK,"Chemie, Pharma",MRK.DE
+MTU Aero Engines,MTX,Luftfahrt,MTX.DE
+Münchener Rück,MUV2,Versicherungen,MUV2.DE
+Porsche Automobil Holding,PAH3,Holding,PAH3.DE
+Qiagen,QIA,Biotechnologie,QIA.DE
+Rheinmetall,RHM,"Wehrtechnik, Automobil (Zulieferer)",RHM.DE
+RWE,RWE,Energie (Versorgung),RWE.DE
+SAP,SAP,Software,SAP.DE
+Scout24,G24,Online-Marktplätze,G24.DE
+Siemens,SIE,Elektrotechnik,SIE.DE
+Siemens Energy,ENR,"Elektrotechnik, Energietechnik",ENR.DE
+Siemens Healthineers,SHL,Medizintechnik,SHL.DE
+Symrise,SY1,"Lebensmittel, Chemie, Kosmetik, Konsumgüter, Duftstoffe, Aromen",SY1.DE
+Volkswagen,VOW3,Automobil (Produktion),VOW3.DE
+Vonovia,VNA,Immobilien,VNA.DE
+Zalando,ZAL,Versandhandel (Mode),ZAL.DE
