@@ -1,41 +1,41 @@
-company,ticker,industry,ticker_yahoo
-Adidas,ADS,Sportartikel,ADS.DE
-Airbus,AIR,"Luftfahrt, Raumfahrt, Rüstung",AIR.PA
-Allianz,ALV,Versicherungen,ALV.DE
-BASF,BAS,Chemie,BAS.DE
-Bayer,BAYN,"Chemie, Pharma",BAYN.DE
-Beiersdorf,BEI,Konsumgüter (Produktion),BEI.DE
-BMW,BMW,Automobil (Produktion),BMW.DE
-Brenntag,BNR,Chemie (Handel),BNR.DE
-Commerzbank,CBK,Banken,CBK.DE
-Continental,CON,Automobil (Zulieferer),CON.DE
-Daimler Truck,DTG,Nutzfahrzeuge (Produktion),DTG.DE
-Deutsche Bank,DBK,Banken,DBK.DE
-Deutsche Börse,DB1,Börsen,DB1.DE
-Deutsche Post,DHL,Logistik,DHL.DE
-Deutsche Telekom,DTE,Telekommunikation,DTE.DE
-E.ON,EOAN,Energie (Versorgung),EOAN.DE
-Fresenius,FRE,"Medizintechnik, Kliniken",FRE.DE
-Fresenius Medical Care,FME,Medizintechnik,FME.DE
-GEA Group,G1A,Maschinenbau,G1A.DE
-Hannover Rück,HNR1,Versicherungen,HNR1.DE
-Heidelberg Materials,HEI,Baustoffe,HEI.DE
-Henkel,HEN3,"Konsumgüter, Chemie",HEN3.DE
-Infineon,IFX,Halbleiter,IFX.DE
-Mercedes-Benz Group,MBG,Automobil (Produktion),MBG.DE
-Merck,MRK,"Chemie, Pharma",MRK.DE
-MTU Aero Engines,MTX,Luftfahrt,MTX.DE
-Münchener Rück,MUV2,Versicherungen,MUV2.DE
-Porsche Automobil Holding,PAH3,Holding,PAH3.DE
-Qiagen,QIA,Biotechnologie,QIA.DE
-Rheinmetall,RHM,"Wehrtechnik, Automobil (Zulieferer)",RHM.DE
-RWE,RWE,Energie (Versorgung),RWE.DE
-SAP,SAP,Software,SAP.DE
-Scout24,G24,Online-Marktplätze,G24.DE
-Siemens,SIE,Elektrotechnik,SIE.DE
-Siemens Energy,ENR,"Elektrotechnik, Energietechnik",ENR.DE
-Siemens Healthineers,SHL,Medizintechnik,SHL.DE
-Symrise,SY1,"Lebensmittel, Chemie, Kosmetik, Konsumgüter, Duftstoffe, Aromen",SY1.DE
-Volkswagen,VOW3,Automobil (Produktion),VOW3.DE
-Vonovia,VNA,Immobilien,VNA.DE
-Zalando,ZAL,Versandhandel (Mode),ZAL.DE
+company,ticker,industry,ticker_yahoo,industry_en
+Adidas,ADS,Sportartikel,ADS.DE,Sporting goods
+Airbus,AIR,"Luftfahrt, Raumfahrt, Rüstung",AIR.PA,Aerospace
+Allianz,ALV,Versicherungen,ALV.DE,Insurance
+BASF,BAS,Chemie,BAS.DE,Chemicals & Pharmaceuticals
+Bayer,BAYN,"Chemie, Pharma",BAYN.DE,Chemicals & Pharmaceuticals
+Beiersdorf,BEI,Konsumgüter (Produktion),BEI.DE,Consumer goods
+BMW,BMW,Automobil (Produktion),BMW.DE,Automotive industry
+Brenntag,BNR,Chemie (Handel),BNR.DE,Chemicals & Pharmaceuticals
+Commerzbank,CBK,Banken,CBK.DE,Banks
+Continental,CON,Automobil (Zulieferer),CON.DE,Automotive industry
+Daimler Truck,DTG,Nutzfahrzeuge (Produktion),DTG.DE,Automotive industry
+Deutsche Bank,DBK,Banken,DBK.DE,Banks
+Deutsche Börse,DB1,Börsen,DB1.DE,Stock exchange
+Deutsche Post,DHL,Logistik,DHL.DE,Logistics
+Deutsche Telekom,DTE,Telekommunikation,DTE.DE,Telecommunications
+E.ON,EOAN,Energie (Versorgung),EOAN.DE,Energy
+Fresenius,FRE,"Medizintechnik, Kliniken",FRE.DE,Medical technology
+Fresenius Medical Care,FME,Medizintechnik,FME.DE,Hospitals
+GEA Group,G1A,Maschinenbau,G1A.DE,Mechanical engineering
+Hannover Rück,HNR1,Versicherungen,HNR1.DE,Insurance
+Heidelberg Materials,HEI,Baustoffe,HEI.DE,Building materials
+Henkel,HEN3,"Konsumgüter, Chemie",HEN3.DE,Consumer goods
+Infineon,IFX,Halbleiter,IFX.DE,Semiconductors
+Mercedes-Benz Group,MBG,Automobil (Produktion),MBG.DE,Automotive industry
+Merck,MRK,"Chemie, Pharma",MRK.DE,Chemicals & Pharmaceuticals
+MTU Aero Engines,MTX,Luftfahrt,MTX.DE,Aerospace
+Münchener Rück,MUV2,Versicherungen,MUV2.DE,Insurance
+Porsche Automobil Holding,PAH3,Holding,PAH3.DE,Holding company
+Qiagen,QIA,Biotechnologie,QIA.DE,Biotechnology
+Rheinmetall,RHM,"Wehrtechnik, Automobil (Zulieferer)",RHM.DE,Defense technology
+RWE,RWE,Energie (Versorgung),RWE.DE,Energy
+SAP,SAP,Software,SAP.DE,Software
+Scout24,G24,Online-Marktplätze,G24.DE,Online marketplaces
+Siemens,SIE,Elektrotechnik,SIE.DE,Electrical engineering
+Siemens Energy,ENR,"Elektrotechnik, Energietechnik",ENR.DE,Energy technology
+Siemens Healthineers,SHL,Medizintechnik,SHL.DE,Hospitals
+Symrise,SY1,"Lebensmittel, Chemie, Kosmetik, Konsumgüter, Duftstoffe, Aromen",SY1.DE,Consumer goods
+Volkswagen,VOW3,Automobil (Produktion),VOW3.DE,Automotive industry
+Vonovia,VNA,Immobilien,VNA.DE,Real estate
+Zalando,ZAL,Versandhandel (Mode),ZAL.DE,Fashion
