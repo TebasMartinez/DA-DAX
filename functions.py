@@ -68,10 +68,72 @@ def company_monthly_data(df_monthly, company):
 
 # INDUSTRIES PAGE
 def industry_daily_data(df_daily, industry):
-      pass
+      df_daily = df_daily[df_daily['industry']==industry]
+
+      industry_daily = (
+            df_daily.groupby('date', as_index=False)
+            .agg({
+            'close': 'mean',
+            'return': 'mean',
+            'volume': 'sum',
+            '1eur_usd': 'mean',
+            '1eur_gbp': 'mean'
+            })
+            .rename(columns={
+            'close': 'avg_close',
+            'return': 'avg_return',
+            'volume': 'total_volume'
+            }))
+      
+      close_fig = px.line(industry_daily, x='date', y='avg_close', title='Avg. Industry Close Price')
+      returns_fig = px.line(industry_daily, x='date', y='avg_return', title='Avg. Industry Returns')
+      volumes_fig = px.line(industry_daily, x='date', y='total_volume', title='Total Industry Volumes')
+      st.plotly_chart(close_fig, use_container_width=True)
+      st.plotly_chart(returns_fig, use_container_width=True)
+      st.plotly_chart(volumes_fig, use_container_width=True)
+
+      left, right = st.columns(2)
+      left.scatter_chart(industry_daily, x='avg_close', y='1eur_usd')
+      right.scatter_chart(industry_daily, x='avg_close', y='1eur_gbp')
+
+      left, right = st.columns(2)
+      left.scatter_chart(industry_daily, x='avg_return', y='1eur_usd')
+      right.scatter_chart(industry_daily, x='avg_return', y='1eur_gbp')
+
+      left, right = st.columns(2)
+      left.scatter_chart(industry_daily, x='total_volume', y='1eur_usd')
+      right.scatter_chart(industry_daily, x='total_volume', y='1eur_gbp')
+
+
 
 def industry_monthly_data(df_monthly, industry):
-      pass
+      df_monthly = df_monthly[df_monthly['industry']==industry]
+
+      industry_monthly = (
+            df_monthly.groupby('month', as_index=False)
+            .agg({
+            'close': 'mean',
+            'return': 'mean',
+            'unemployment_rate': 'mean',
+            'interest_rate': 'mean'
+            })
+            .rename(columns={
+            'close': 'avg_close',
+            'return': 'avg_return'
+            }))
+
+      close_fig_month = px.line(industry_monthly, x='month', y='avg_close', title='Close Price at end of month')
+      return_fig_moth = px.line(industry_monthly, x='month', y='avg_return', title='Returns (%) at end of month')
+      st.plotly_chart(close_fig_month, use_container_width=True)
+      st.plotly_chart(return_fig_moth, use_container_width=True)
+
+      left, right = st.columns(2)
+      left.scatter_chart(industry_monthly, x='avg_close', y='unemployment_rate')
+      right.scatter_chart(industry_monthly, x='avg_close', y='interest_rate')
+
+      left, right = st.columns(2)
+      left.scatter_chart(industry_monthly, x='avg_return', y='unemployment_rate')
+      right.scatter_chart(industry_monthly, x='avg_return', y='interest_rate')
 
 # FOOTER
 def footer():
