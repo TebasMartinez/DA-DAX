@@ -1,6 +1,6 @@
 # Data Analysis - DAX
 
-The objective of this project is explore company and industry stock market data (close prices, returns, volumes) for companies that are part of the DAX and their correlations with macroeconomic and social indicators such  as exchange rates (EUR to USD and EUR to GBP), ECB interest rates, and unemployment rates in Germany.
+The objective of this project is to explore company and industry stock market data (close prices, returns, volumes) for companies that are part of the DAX and their correlations with macroeconomic and social indicators such  as exchange rates (EUR to USD and EUR to GBP), ECB interest rates, and unemployment rates in Germany.
 
 ## Questions
 - How do ECB interest rates, exchange rates, and unemployment affect DAX performance?
