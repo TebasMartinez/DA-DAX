@@ -4,7 +4,7 @@ In this project I create a dashboard and explore company and industry stock mark
 
 ## Objective & Questions
 - Creating a dashboard that allows for data exploration.
-- How do ECB interest rates, exchange rates, and unemployment affect DAX performance?
+- Do ECB interest rates, exchange rates, and unemployment affect DAX performance?
 - Which DAX sectors or companies react most strongly to macroeconomic changes?
 - Can we predict DAX returns from macro variables and exchange rate movements?
 
