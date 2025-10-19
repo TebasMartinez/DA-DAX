@@ -1,8 +1,9 @@
 # DAX Dashboard & Insights: Exploring Market Performance and Economic Indicators
 
-The objective of this project is to explore company and industry stock market data (close prices, returns, volumes) for companies that are part of the DAX and their correlations with macroeconomic and social indicators such  as exchange rates (EUR to USD and EUR to GBP), ECB interest rates, and unemployment rates in Germany.
+In this project I create a dashboard and explore company and industry stock market data (close prices, returns, volumes) for companies that are part of the DAX and their correlations with macroeconomic and social indicators such  as exchange rates (EUR to USD and EUR to GBP), ECB interest rates, and unemployment rates in Germany.
 
-## Questions
+## Objective & Questions
+- Creating a dashboard that allows for data exploration.
 - How do ECB interest rates, exchange rates, and unemployment affect DAX performance?
 - Which DAX sectors or companies react most strongly to macroeconomic changes?
 - Can we predict DAX returns from macro variables and exchange rate movements?
