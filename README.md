@@ -4,7 +4,7 @@ In this project I create a dashboard and explore company and industry stock mark
 
 ## Objectives
 - Creating a dashboard that allows for data exploration.
-- Explore if/how ECB interest rates, exchange rates, and unemployment affect DAX performance, and understand if we can predict DAX performance based on these variables.
+- Exploring if/how ECB interest rates, exchange rates, and unemployment affect DAX performance, and understand if we can predict DAX performance based on these variables.
 
 ## Methodology
 ### Data Retrieval
@@ -23,3 +23,6 @@ Using the Streamlit library, I created a dashboard to allow for exploration of t
 ### Exploratory Data Analysis
 - Univariate EDA performed in a Jupyter Notebook.
 - Bivariate EDA through exploration of the created dashboard and Jupyter Notebook.
+
+## Presentation
+[![Presentation](images/presentation.svg)](https://docs.google.com/presentation/d/1_wFnjfKWAGntQ8lYFWorvkFUkp4eBXYnENGLja44Ntg/edit?usp=sharing)
