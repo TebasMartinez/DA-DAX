@@ -24,4 +24,4 @@ Using the Streamlit library, I created a dashboard to allow for exploration of t
 
 ### Exploratory Data Analysis
 - Univariate EDA performed in a Jupyter Notebook.
-- Bivariate EDA through exploration of the created dashboard.
+- Bivariate EDA through exploration of the created dashboard and Jupyter Notebook.
