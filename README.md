@@ -2,11 +2,9 @@
 
 In this project I create a dashboard and explore company and industry stock market data (close prices, returns, volumes) for companies that are part of the DAX and their correlations with macroeconomic and social indicators such  as exchange rates (EUR to USD and EUR to GBP), ECB interest rates, and unemployment rates in Germany.
 
-## Objective & Questions
+## Objectives
 - Creating a dashboard that allows for data exploration.
-- Do ECB interest rates, exchange rates, and unemployment affect DAX performance?
-- Which DAX sectors or companies react most strongly to macroeconomic changes?
-- Can we predict DAX returns from macro variables and exchange rate movements?
+- Explore if/how ECB interest rates, exchange rates, and unemployment affect DAX performance, and understand if we can predict DAX performance based on these variables.
 
 ## Methodology
 ### Data Retrieval
