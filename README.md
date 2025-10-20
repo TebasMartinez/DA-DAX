@@ -7,7 +7,7 @@ In this project I create a dashboard and explore company and industry stock mark
 - Exploring if/how ECB interest rates, exchange rates, and unemployment affect DAX performance, and understand if we can predict DAX performance based on these variables.
 
 ## Methodology
-![Process image](images/process.png)
+![Process image](images/processimg.png)
 
 ### Data Retrieval
 - List of companies in the DAX as of 22 September 2025 web scraped from [Wikipedia](https://de.wikipedia.org/wiki/DAX).
