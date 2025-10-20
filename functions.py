@@ -65,15 +65,13 @@ def company_kpi_dashboard(df_daily, company):
     with col1:
         st.metric(
             "Average Price",
-            f"€{avg_price:.2f}",
-            delta=f"€{current_price - avg_price:.2f}"
+            f"€{avg_price:.2f}"
         )
     
     with col2:
         st.metric(
             "Win Rate",
-            f"{win_rate:.1f}%",
-            delta=f"{positive_days}/{len(company_data)} days"
+            f"{win_rate:.1f}%"
         )
     
     with col3:
@@ -205,15 +203,13 @@ def industry_kpi_dashboard(df_daily, industry, companies):
     with col1:
         st.metric(
             "Current Industry Avg Price",
-            f"€{current_avg_price:.2f}",
-            delta=f"{industry_change_30d:.1f}% (30d)"
+            f"€{current_avg_price:.2f}"
         )
     
     with col2:
         st.metric(
             "Industry Win Rate",
-            f"{industry_win_rate:.1f}%",
-            delta=f"{positive_industry_days}/{len(industry_daily)} days"
+            f"{industry_win_rate:.1f}%"
         )
         
     
@@ -403,8 +399,6 @@ def predict_future(model_assets, future_days=30):
         return None
     
 def company_predictions(df_daily, company):
-    st.subheader("🤖 AI Price Predictions")
-    
     # Get ticker for this company
     ticker = df_daily[df_daily['company'] == company]['ticker'].iloc[0]
     
@@ -541,8 +535,7 @@ def show_prediction_stats(future_prices, df_daily, company):
     with col2:
         st.metric(
             f"Forecast ({len(future_prices)} days)", 
-            f"€{forecast_final:.2f}",
-            delta=f"{price_change:.2f} €"
+            f"€{forecast_final:.2f}"
         )
     
     with col3:
