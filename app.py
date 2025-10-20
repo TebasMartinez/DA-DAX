@@ -71,11 +71,16 @@ def main():
             st.header(company)
             st.write(f"Industry: {industry}")
 
-            with st.expander("Daily data"):
+            f.company_kpi_dashboard(st.session_state.merged_daily_market, company)
+
+            with st.expander("🗓️ Daily data"):
                 f.company_daily_data(st.session_state.merged_daily_market, company)
             
-            with st.expander("Monthly data"):
+            with st.expander("🗓️ onthly data"):
                 f.company_monthly_data(st.session_state.merged_monthly_market, company)
+
+            with st.expander("🤖 AI Price Predictions"):
+                f.company_predictions(st.session_state.merged_daily_market, company)
 
     # INDUSTRIES DATA
     if st.session_state.industries == True:
@@ -113,11 +118,16 @@ def main():
             for company in companies:
                 st.write(company)
 
-            with st.expander("Daily data"):
+            f.industry_kpi_dashboard(st.session_state.merged_daily_market, industry, companies)
+
+            with st.expander("🗓️ Daily data"):
                 f.industry_daily_data(st.session_state.merged_daily_market, industry)
             
-            with st.expander("Monthly data"):
+            with st.expander("🗓️ Monthly data"):
                 f.industry_monthly_data(st.session_state.merged_monthly_market, industry)
+
+            with st.expander("🤖 Industry AI Predictions"):
+                f.industry_predictions(st.session_state.merged_daily_market, industry, companies)
 
     # FOOTER
     f.footer()
