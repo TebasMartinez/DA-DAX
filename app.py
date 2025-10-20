@@ -77,7 +77,7 @@ def main():
             with st.expander("🗓️ Daily data"):
                 f.company_daily_data(st.session_state.merged_daily_market, company)
             
-            with st.expander("🗓️ onthly data"):
+            with st.expander("🗓️ Monthly data"):
                 f.company_monthly_data(st.session_state.merged_monthly_market, company)
 
             with st.expander("🤖 AI Price Predictions"):
