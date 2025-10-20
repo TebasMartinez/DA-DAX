@@ -40,5 +40,11 @@ In this project I create a dashboard and explore company and industry stock mark
   - `app.py`
   - `functions.py`
 
+## Running the dashboard
+The web app dashboard can be seen by running the following command from this repo:
+````
+streamlit run app.py
+````
+
 ## Presentation
 [![Presentation](images/presentation.svg)](https://docs.google.com/presentation/d/1_wFnjfKWAGntQ8lYFWorvkFUkp4eBXYnENGLja44Ntg/edit?usp=sharing)
