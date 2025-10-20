@@ -646,6 +646,10 @@ def industry_predictions(df_daily, industry, companies):
                 use_container_width=True,
                 height=400
             )
+      
+            st.info(f"""
+            - *Note: AI predictions are based on historical patterns and should not be used as financial advice*
+            """)
 
 def plot_industry_summary(predictions, future_days):
     """Create industry summary plot"""
