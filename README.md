@@ -19,15 +19,26 @@ In this project I create a dashboard and explore company and industry stock mark
 #### Roadblocks
 - Limits in free-tier plans of different news APIs ([NewsAPI](https://newsapi.org/), [mediastack](https://mediastack.com/), [FMP](https://site.financialmodelingprep.com/)), impeding the extraction of sentiment-related data, which had been initially planned as part of the project.
 
+- Relevant files:
+  - `00 Data Retrieval.ipynb`
+
 ### Exploratory Data Analysis
 - Univariate EDA performed in a Jupyter Notebook.
 - Bivariate EDA through exploration of the created dashboard and Jupyter Notebook.
+- Relevant files:
+  - `01 Univariate EDA.ipynb`
+  - `02 Bivariate EDA.ipynb`
 
 ### LSTM Models
 - Created a model per company in the DAX to predict future market performance.
+- Relevant files:
+  - `03 Predictive Model.ipynb`
 
 ### Dashboard creation
 - Using the Streamlit library, I created a dashboard to allow for exploration of the data per company or industry, and their correlations with macroeconomic and social indicators, as well as use of thee predictive models.
+- Relevant files:
+  - `app.py`
+  - `functions.py`
 
 ## Presentation
 [![Presentation](images/presentation.svg)](https://docs.google.com/presentation/d/1_wFnjfKWAGntQ8lYFWorvkFUkp4eBXYnENGLja44Ntg/edit?usp=sharing)
