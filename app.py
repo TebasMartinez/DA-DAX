@@ -37,6 +37,7 @@ def main():
         including close prices, returns and volume, and compare it with macroeconomic and 
         social indicators such as exchange rates (EUR to USD and EUR to GBP), ECB's interest rates,
         and Germany's unemployment rate.
+        Now with AI-powered price predictions using LSTM neural networks!
         """)
         left, certerleft, center, centerright, right = st.columns([1,4,4,4,1])
         f.companies_button(certerleft)
