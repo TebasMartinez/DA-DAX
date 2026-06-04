@@ -40,6 +40,9 @@ In this project I create a dashboard and explore company and industry stock mark
   - `app.py`
   - `functions.py`
 
+## AI Disclaimer
+Used Deepseek to assist with creating the ML model and adding it to the Streamlit web app.
+
 ## Running the dashboard
 The web app dashboard can be seen by running the following command from this repo:
 ````
